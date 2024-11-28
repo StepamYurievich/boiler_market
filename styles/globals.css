@@ -13,11 +13,13 @@
     --foreground: #ededed;
   }
 }
-
+body{
+  @apply bg-white dark:bg-gray-800;
+  @apply text-gray-900 dark:text-gray-100;
+}
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 body::-webkit-scrollbar {
   width: 8px;
